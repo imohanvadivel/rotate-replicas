@@ -1,0 +1,8 @@
+{
+  "name": "Rotate Replicas",
+  "id": "1046408980285879143",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "ui": "ui.html"
+}

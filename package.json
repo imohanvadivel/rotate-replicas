@@ -1,0 +1,14 @@
+{
+  "name": "rotate_replicas",
+  "description": "Create and manipulate radial patterns directly on the canvas",
+  "repository": "https://github.com/imohanvadivel/rotate-replicas.git",
+  "author": "Mohan Vadivel <mohanvadivel@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild code.ts --minify --outfile=code.js"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.47.0",
+    "esbuild": "^0.14.39"
+  }
+}
