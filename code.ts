@@ -4,7 +4,7 @@ type cord = [number, number]; //Cordinate type [x,y]
 let anode: VectorNode | ComponentNode; // The node of interest
 let aparent: BaseNode & ChildrenMixin; // parent of anode
 let p1: cord; // position of anode
-let refreshRate: number = 100;
+let refreshRate: number = 150;
 let nodeAry = []; // Array that contain all the child node
 let handle: LineNode, handleWeight: number, origin: cord;
 let initialRotation: number; // anode rotation value (deg)
